@@ -61,4 +61,7 @@ app.get('/webhook', (req, res) => {
 			res.sendStatus(403);
 		}
 	}
+
+	res.send("FAILED!");
+	
 });
